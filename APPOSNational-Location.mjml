@@ -24,7 +24,7 @@
   <mj-body background-color="#fafafa" width="600px">
 
     <!-- Header Section -->
-    <mj-section full-width="full-width" background-color="#FFF" padding-bottom="50px">
+    <mj-section full-width="full-width" background-color="#FFF" padding="50px 0px">
       <mj-column width="100%">
         <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS-icon.png" alt="APPOS 2021 Icon" align="center" width="100px" />
         <mj-text color="#1B2C4C" font-family="Montserrat" font-weight="bold" align="center" text-transform="uppercase" font-size="28px" line-height="40px">
