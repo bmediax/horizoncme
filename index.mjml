@@ -11,7 +11,8 @@
       .body-section { -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); }
     </mj-style>
     <mj-style inline="inline">
-    .btn div {border:1px solid #EDEDED;background:transparent;color:#8EC63E;}
+      .primary-btn a { color:#8EC63E !important; font-size:16px !important; border:1px solid #EBEBEB !important; display:block !important; padding:14px 80px !important; border-radius:8px !important; }
+      .primary-btn a:hover {color:#FFF !important;background-color:#8EC63E !important;}
     </mj-style>
     <mj-style inline="inline">
       .text-link { color: #5e6ebf }
@@ -97,7 +98,7 @@
       </mj-section>
       <mj-section padding="0px 0px 50px 0px">
         <mj-column padding="0">
-            <mj-button css-class="btn">View All</mj-button>
+            <mj-button css-class="primary-btn" background-color="white" font-weight="500" href="#">View All</mj-button>
         </mj-column>
       </mj-section>
 
