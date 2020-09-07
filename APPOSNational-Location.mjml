@@ -17,9 +17,9 @@
     </mj-attributes>
 
     <!-- CSS Styles -->
-    <mj-style inline="inline">
+    <!-- <mj-style inline="inline">
       .body-section { -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); }
-    </mj-style>
+    </mj-style> -->
     <mj-style inline="inline">
       .text-link { color: #5e6ebf }
     </mj-style>
@@ -115,7 +115,7 @@
       </mj-section>
 
       <!-- Overview Value -->
-      <mj-section>
+      <mj-section background-color="#ffffff">
         <mj-column width="25%">
           <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/light-icn_500x500.png" width="85px" />
         </mj-column>
@@ -128,7 +128,7 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section>
+      <mj-section background-color="#ffffff">
         <mj-column width="75%">
           <mj-text align="right" mj-class="column-title">
             Engage
@@ -141,7 +141,7 @@
           <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/chat-icn_500x500.png" width="85px" />
         </mj-column>
       </mj-section>
-      <mj-section>
+      <mj-section background-color="#ffffff">
         <mj-column width="25%">
           <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/magnet-icn_500x500.png" width="85px" />
         </mj-column>
@@ -154,7 +154,7 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section>
+      <mj-section background-color="#ffffff">
         <mj-column width="75%">
           <mj-text align="right" mj-class="column-title">
             Collaborate
@@ -170,31 +170,54 @@
     </mj-wrapper>
 
     <!-- Who Should Attend APPOS Section -->
-    <mj-wrapper background-color="#2F3D4A" padding="50px 0px">
+    <mj-wrapper background-color="#2F3D4A" padding="30px 0px">
       <mj-section>
         <mj-column>
           <mj-text mj-class="column-title-light">Who Should Attend APPOS?</mj-text>
         </mj-column>
       </mj-section>
-      <mj-section>
-        <mj-column>
-          <mj-text>Pharmacists</mj-text>
+      <mj-section padding="0px 25px 5px 25px">
+        <mj-column background-color="#0A85A6" width="35%" border-radius="8px">
+          <mj-text color="#FFF" align="center" font-weight="bold">Pharmacists</mj-text>
         </mj-column>
-        <mj-column>
-          <mj-text>Nurse Practitioners</mj-text>
+        <mj-column background-color="#0A85A6" width="65%" border-radius="8px">
+          <mj-text color="#FFF" align="center" font-weight="bold">Nurse Practitioners</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="5px 25px 5px 25px">
+        <mj-column background-color="#0A85A6" width="65%" border-radius="8px">
+          <mj-text color="#FFF" align="center" font-weight="bold">Physician Assistants</mj-text>
+        </mj-column>
+        <mj-column background-color="#0A85A6" width="35%" border-radius="8px">
+          <mj-text color="#FFF" align="center" font-weight="bold">Nurses</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="5px 25px 0px 25px">
+        <mj-column background-color="#0A85A6" border-radius="8px">
+          <mj-text color="#FFF" align="center" font-weight="bold">Others involved in the care of oncology patients</mj-text>
         </mj-column>
       </mj-section>
       <mj-section>
         <mj-column>
-          <mj-text>Physician Assistants</mj-text>
-        </mj-column>
-        <mj-column>
-          <mj-text>Nurses</mj-text>
+          <mj-text color="#0B88A8" align="center" font-weight="bold" text-transform="uppercase">
+            Offering up to 12 hours of ANCC, ACPE, & CME credit, including pharmacology credit and BCOP credit
+          </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section>
+    </mj-wrapper>
+    <mj-wrapper padding="0px">
+      <mj-section background-color="#FFF" border-bottom="5px solid #FAFAFA">
         <mj-column>
-          <mj-text>Others involved in the care of oncology patients</mj-text>
+          <mj-text align="center" font-weight="500">
+            Student registration fee is $35 All students, please contact info@horizoncme.com for further information.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#FFF">
+        <mj-column>
+          <mj-text mj-class="section-title">
+            In Partnership with:
+          </mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>
