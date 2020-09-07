@@ -6,12 +6,13 @@
     <mj-attributes>
       <mj-all font-family="'Montserrat', Helvetica, Arial, sans-serif"></mj-all>
       <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+      <!-- Text Style Class -->
+      <mj-class name="section-title" line-height="40px" font-family="Montserrat" color="#3F4F5E" font-size="25px" align="center" font-weight="bold" text-transform="uppercase"></mj-class> 
+      <!-- Button Style Class -->
+      <mj-class name="primary-btn" height="50px" width="100%" font-size="16px" text-transform="uppercase" letter-spacing="1px" border-radius="8px" color="#FFF" background-color="#0B88A8"></mj-style>
     </mj-attributes>
     <mj-style inline="inline">
       .body-section { -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); }
-    </mj-style>
-    <mj-style>
-      .primary-btn a { border:1px solid #EBEBEB; padding:8px 40px; border-radius:8px !important; background-color:#FFF !important; color:red;}
     </mj-style>
     <mj-style inline="inline">
       .text-link { color: #5e6ebf }
@@ -19,9 +20,10 @@
     <mj-style inline="inline">
       .footer-link { color: #888888 }
     </mj-style>
-
   </mj-head>
   <mj-body background-color="#fafafa" width="600px">
+
+    <!-- Header Section -->
     <mj-section full-width="full-width" background-color="#FFF" padding-bottom="50px">
       <mj-column width="100%">
         <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS-icon.png" alt="APPOS 2021 Icon" align="center" width="100px" />
@@ -36,10 +38,10 @@
       </mj-column>
     </mj-section>
 
-    <!-- List of Locations -->
+    <!-- Locations Section -->
     <mj-section padding="50px 0px 0px 0px">
         <mj-column width="100%">
-            <mj-text color="#3F4F5E" font-family="Montserrat" font-size="25px" line-height="40px" font-weight="bold" align="center" padding-bottom="20px" >
+            <mj-text mj-class="section-title" padding-bottom="20px" >
                 Complete 2021 APPOS <br />List of Locations
             </mj-text>
             <mj-image src="https://via.placeholder.com/600x400?text=Map" padding="0px 0px" />
@@ -49,7 +51,6 @@
             </mj-text>
         </mj-column>
     </mj-section>
-
     <!-- Locations Column -->
     <mj-section padding="20px 0px 20px 0px">
         <mj-column>
@@ -97,15 +98,16 @@
       </mj-section>
       <mj-section padding="0px 0px 50px 0px">
         <mj-column padding="0">
-            <mj-button css-class="primary-btn" href="#">View All</mj-button>
+            <mj-button mj-class="primary-btn" href="#">View All</mj-button>
         </mj-column>
       </mj-section>
-
+    
+    <!-- Overview Section -->
     <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
-      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
+      <mj-section background-color="#ffffff" padding-left="10px" padding-right="10px">
         <mj-column width="100%">
-          <mj-text color="#212b35" font-weight="bold" font-size="20px">
-            Croft's in Austin is opening December 20th
+          <mj-text mj-class="section-title">
+            Overview
           </mj-text>
           <mj-text color="#637381" font-size="16px">
             Hi Jane,
