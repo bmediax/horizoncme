@@ -23,20 +23,7 @@
   </mj-head>
   <mj-body background-color="#fafafa" width="600px">
 
-    <!-- Header Section -->
-    <mj-section full-width="full-width" background-color="#FFF" padding="50px 0px">
-      <mj-column width="100%">
-        <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS-icon.png" alt="APPOS 2021 Icon" align="center" width="100px" />
-        <mj-text color="#1B2C4C" font-family="Montserrat" font-weight="bold" align="center" text-transform="uppercase" font-size="28px" line-height="40px">
-          Announcing<br />
-          2021 <span style="color:#0B88A8">APP</span> <span style="color:#8EC63E">ONCOLOGY SUMMIT</span><br />
-          (APPOS) LOCATIONS!
-        </mj-text>
-        <mj-text color="#3F4F5E" font-family="Montserrat" font-size="16px" font-style="italic" align="center">
-            Find Your Location and Mark Your Calendars Now!
-        </mj-text>
-      </mj-column>
-    </mj-section>
+    <mj-include path="../APPOS-Modules/header.mjml"></mj-include>
 
     <!-- Locations Section -->
     <mj-section padding="50px 0px 0px 0px">
@@ -192,41 +179,8 @@
       </mj-section>
     </mj-wrapper>
 
-    <mj-wrapper full-width="full-width">
-      <mj-section>
-        <mj-column width="100%" padding="0">
-          <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0" align="center">
-            <mj-social-element name="facebook" href="https://mjml.io/" background-color="#A1A0A0">
-            </mj-social-element>
-            <mj-social-element name="google" href="https://mjml.io/" background-color="#A1A0A0">
-            </mj-social-element>
-            <mj-social-element name="twitter" href="https://mjml.io/" background-color="#A1A0A0">
-            </mj-social-element>
-            <mj-social-element name="linkedin" href="https://mjml.io/" background-color="#A1A0A0">
-            </mj-social-element>
-          </mj-social>
-          <mj-text color="#445566" font-size="11px" font-weight="bold" align="center">
-            View this email in your browser
-          </mj-text>
-          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
-            You are receiving this email advertisement because you registered with Croft's Accountants. (123 Main Street, Austin, TX 78701) and agreed to receive emails from us regarding new features, events and special offers.
-          </mj-text>
-          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
-            &copy; Croft's Accountants Inc., All Rights Reserved.
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding-top="0">
-        <mj-group>
-          <mj-column width="100%" padding-right="0">
-            <mj-text color="#445566" font-size="11px" align="center" line-height="16px" font-weight="bold">
-              <a class="footer-link" href="https://www.google.com">Privacy</a>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a class="footer-link" href="https://www.google.com">Unsubscribe</a>
-            </mj-text>
-          </mj-column>
-        </mj-group>
-
-      </mj-section>
-    </mj-wrapper>
+    <!-- Footer -->
+    <mj-include path="../APPOS-Modules/footer.mjml"></mj-include>
 
   </mj-body>
 </mjml>
