@@ -6,12 +6,17 @@
     <mj-attributes>
       <mj-all font-family="'Montserrat', Helvetica, Arial, sans-serif"></mj-all>
       <mj-text font-weight="medium" font-size="15px" color="#3F4F5E" line-height="25px" font-family="'Montserrat', Helvetica, Arial, sans-serif"></mj-text>
+
       <!-- Text Style Class -->
       <mj-class name="section-title" line-height="40px" font-family="Montserrat" color="#3F4F5E" font-size="25px" align="center" font-weight="bold" text-transform="uppercase"></mj-class> 
       <mj-class name="column-title" color="#8EC63E" line-height="40px" font-weight="bold" padding="0px" font-size="18px" font-family="Montserrat" text-transform="uppercase"></mj-class>
+      <mj-class name="column-title-light" color="#FFF" align="center" line-height="40px" font-weight="bold" padding="0px" font-size="25px" font-family="Montserrat" text-transform="uppercase"></mj-class>
+
       <!-- Button Style Class -->
       <mj-class name="primary-btn" height="50px" width="100%" font-size="16px" text-transform="uppercase" letter-spacing="1px" border-radius="8px" color="#FFF"background-color="#0B88A8"></mj-style>
     </mj-attributes>
+
+    <!-- CSS Styles -->
     <mj-style inline="inline">
       .body-section { -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); }
     </mj-style>
@@ -24,6 +29,7 @@
   </mj-head>
   <mj-body background-color="#fafafa" width="600px">
 
+    <!-- Header Section -->
     <mj-include path="../APPOS-Modules/header.mjml"></mj-include>
 
     <!-- Locations Section -->
@@ -39,6 +45,7 @@
             </mj-text>
         </mj-column>
     </mj-section>
+
     <!-- Locations Column -->
     <mj-section padding="20px 0px 20px 0px">
       <mj-column>
@@ -163,12 +170,36 @@
     </mj-wrapper>
 
     <!-- Who Should Attend APPOS Section -->
-    <mj-wrapper>
-
+    <mj-wrapper background-color="#2F3D4A" padding="50px 0px">
+      <mj-section>
+        <mj-column>
+          <mj-text mj-class="column-title-light">Who Should Attend APPOS?</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text>Pharmacists</mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text>Nurse Practitioners</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text>Physician Assistants</mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text>Nurses</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text>Others involved in the care of oncology patients</mj-text>
+        </mj-column>
+      </mj-section>
     </mj-wrapper>
 
     <!-- Footer -->
     <mj-include path="../APPOS-Modules/footer.mjml"></mj-include>
-
   </mj-body>
 </mjml>
