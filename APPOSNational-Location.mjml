@@ -35,18 +35,16 @@
     }
 
     .text-btn-module {
-      padding:0px !important;
+      padding:10px 10px !important;
     }
 
     .text-btn-module div {
       color:#fff !important;
       background-color:#0A85A6;
       text-align:center !important;
-      align:center;
       font-weight:bold !important;
       padding:13px 0px;
       display:block;
-      border-radius:10px;
     }
 
     @media screen and (max-width:479px) {
@@ -238,24 +236,24 @@
           <mj-text mj-class="column-title-light">Who Should Attend APPOS?</mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding="0 0 15px 0">
-        <mj-column width="35%" border-right="10px solid transparent">
+      <mj-section padding="0">
+        <mj-column>
           <mj-text css-class="text-btn-module">Pharmacists</mj-text>
         </mj-column>
-        <mj-column width="65%">
+        <mj-column padding="0px">
           <mj-text css-class="text-btn-module">Nurse Practitioners</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="0 0 15px 0">
-        <mj-column width="65%" border-right="10px solid transparent">
-          <mj-text css-class="text-btn-module">Physician Assistants</mj-text>
-        </mj-column>
-        <mj-column width="35%">
-          <mj-text css-class="text-btn-module">Nurses</mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding="0">
         <mj-column>
+          <mj-text css-class="text-btn-module">Physician Assistants</mj-text>
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-text css-class="text-btn-module">Nurses</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column padding="0px">
           <mj-text css-class="text-btn-module">Others involved in the care of oncology patients</mj-text>
         </mj-column>
       </mj-section>
@@ -265,6 +263,9 @@
         </mj-column>
       </mj-section>
     </mj-wrapper>
+    <!-- END: Who Should Attend APPOS Section -->
+
+    <!-- Student Registration Section -->
     <mj-wrapper padding="0 0 0 0" css-class="body-section">
       <mj-section background-color="#FFF" padding="25px 0px">
         <mj-column>
@@ -274,6 +275,9 @@
         </mj-column>
       </mj-section>
     </mj-wrapper>
+    <!-- END: Student Registration -->
+
+    <!-- In Partnership with Section -->
     <mj-wrapper padding="0px" css-class="body-section">
       <mj-section background-color="#FFF">
         <mj-column>
@@ -293,7 +297,6 @@
         </mj-group>
       </mj-section>
     </mj-wrapper>
-    <!-- END: Who Should Attend APPOS Section -->
 
     <!-- Footer -->
     <mj-include path="../APPOS-Modules/footer.mjml"></mj-include>
