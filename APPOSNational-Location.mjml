@@ -222,7 +222,7 @@
       <mj-group>
         <mj-column>
           <mj-text css-class="location-item">
-              <strong>Atlanta</strong><br />
+              <strong><a href="https://apponcologysummit.mededmanager.com/store/pages/about">Atlanta</a></strong><br />
               January 29-30
           </mj-text>
           <mj-text css-class="location-item">
