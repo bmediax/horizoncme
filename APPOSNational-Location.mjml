@@ -13,13 +13,13 @@
       <mj-class name="column-title-light" color="#FFF" align="center" line-height="40px" font-weight="bold" padding="0px 0px 15px 0px" font-size="25px" font-family="Montserrat" text-transform="uppercase"></mj-class>
 
       <!-- Button Style Class -->
-      <mj-class name="primary-btn" height="50px" width="200px" font-size="16px" text-transform="uppercase" letter-spacing="1px" border-radius="10px" color="#FFF"background-color="#0B88A8"></mj-style>
+      <mj-class name="primary-btn" height="45px" width="200px" font-size="15px" text-transform="uppercase" letter-spacing="1px" border-radius="10px" color="#FFF"background-color="#0B88A8"></mj-style>
     </mj-attributes>
 
     <!-- CSS Styles -->
-    <!-- <mj-style inline="inline">
+    <mj-style inline="inline">
       .body-section { -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); }
-    </mj-style> -->
+    </mj-style>
     <mj-style inline="inline">
       .text-link { color: #5e6ebf }
     </mj-style>
@@ -34,7 +34,7 @@
       text-align:center !important;
       align:center;
       font-weight:bold !important;
-      padding:15px 0px;
+      padding:13px 0px;
       display:block;
       border-radius:10px;
     }
@@ -67,6 +67,7 @@
             </mj-text>
         </mj-column>
     </mj-section>
+    <!-- END: Locations Section -->
 
     <!-- Locations Column -->
     <mj-section padding="20px 0px 20px 0px">
@@ -118,6 +119,7 @@
           <mj-button mj-class="primary-btn" font-weight="bold" href="#">View All</mj-button>
       </mj-column>
     </mj-section>
+    <!-- END: Locations Column -->
     
     <!-- Overview Section -->
     <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
@@ -189,10 +191,12 @@
           <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/handshake-icn_500x500.png" width="85px" />
         </mj-column>
       </mj-section>
+      <!-- END: Overview Value -->
     </mj-wrapper>
+    <!-- END: Overview Section -->
 
     <!-- Who Should Attend APPOS Section -->
-    <mj-wrapper background-color="#2F3D4A" padding="50px 25px">
+    <mj-wrapper css-class="body-section" background-color="#2F3D4A" padding="50px 25px">
       <mj-section padding="0">
         <mj-column>
           <mj-text mj-class="column-title-light">Who Should Attend APPOS?</mj-text>
@@ -225,7 +229,7 @@
         </mj-column>
       </mj-section>
     </mj-wrapper>
-    <mj-wrapper padding="0 0 15px 0">
+    <mj-wrapper padding="0 0 0 0" css-class="body-section">
       <mj-section background-color="#FFF" padding="25px 0px">
         <mj-column>
           <mj-text align="center" font-weight="500">
@@ -234,7 +238,7 @@
         </mj-column>
       </mj-section>
     </mj-wrapper>
-    <mj-wrapper padding="0px">
+    <mj-wrapper padding="0px" css-class="body-section">
       <mj-section background-color="#FFF">
         <mj-column>
           <mj-text mj-class="section-title">
@@ -251,6 +255,7 @@
         </mj-column>
       </mj-section>
     </mj-wrapper>
+    <!-- END: Who Should Attend APPOS Section -->
 
     <!-- Footer -->
     <mj-include path="../APPOS-Modules/footer.mjml"></mj-include>
