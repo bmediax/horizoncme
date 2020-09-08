@@ -337,7 +337,7 @@
     <!-- END: Student Registration -->
 
     <!-- In Partnership with Section -->
-    <mj-wrapper background-color="#FFF" padding="30px 0px">
+    <mj-wrapper background-color="#FFF" padding="50px 0px 0px 0px">
       <mj-section padding="0px 0px 15px 0px">
         <mj-column>
           <mj-text mj-class="section-title" font-size="22px" padding="0px">
@@ -364,7 +364,7 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding="0px 25px 40px 25px" background-color="#FFF">
+      <mj-section padding="0px 25px 30px 25px" background-color="#FFF">
         <mj-column>
           <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/HOPA.png" width="300px"></mj-image>
         </mj-column>
