@@ -18,12 +18,10 @@
 
     <!-- CSS Styles -->
     <mj-style inline="inline">
-      .body-section { -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); }
-    </mj-style>
-    <mj-style inline="inline">
-      .text-link { color: #5e6ebf }
-    </mj-style>
-    <mj-style inline="inline">
+    .body-section { -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); }
+    
+    .text-link { color: #5e6ebf }
+
     .text-btn-module {
       padding:0px !important;
     }
@@ -38,15 +36,12 @@
       display:block;
       border-radius:10px;
     }
-    </mj-style>
-    <mj-style inline="inline">
-    .green-link {
-      color:#8EC63E !important;
-      text-decoration:none !important;
+
+    .footer-link { color: #888888 }
+
+    @media screen and (max-width:527px) {
+
     }
-    </mj-style>
-    <mj-style inline="inline">
-      .footer-link { color: #888888 }
     </mj-style>
   </mj-head>
   <mj-body background-color="#fafafa" width="600px">
@@ -71,48 +66,66 @@
 
     <!-- Locations Column -->
     <mj-section padding="20px 0px 20px 0px">
-      <mj-column>
-          <mj-text>
-              <strong>Seattle, WA</strong><br />
-              TBD
-          </mj-text>
-          <mj-text>
-              <strong>Seattle, WA</strong><br />
-              TBD
-          </mj-text>
-          <mj-text>
-              <strong>Seattle, WA</strong><br />
-              TBD
-          </mj-text>
-      </mj-column>
-      <mj-column>
-          <mj-text>
-              <strong>Seattle, WA</strong><br />
-              TBD
-          </mj-text>
-          <mj-text>
-              <strong>Seattle, WA</strong><br />
-              TBD
-          </mj-text>
-          <mj-text>
-              <strong>Seattle, WA</strong><br />
-              TBD
-          </mj-text>
-      </mj-column>
-      <mj-column>
-          <mj-text>
-              <strong>Seattle, WA</strong><br />
-              TBD
-          </mj-text>
-          <mj-text>
-              <strong>Seattle, WA</strong><br />
-              TBD
-          </mj-text>
-          <mj-text>
-              <strong>Seattle, WA</strong><br />
-              TBD
-          </mj-text>
-      </mj-column>
+      <mj-group>
+        <mj-column>
+            <mj-text>
+                <strong>Seattle, WA</strong><br />
+                TBD
+            </mj-text>
+            <mj-text>
+                <strong>Seattle, WA</strong><br />
+                TBD
+            </mj-text>
+            <mj-text>
+                <strong>Seattle, WA</strong><br />
+                TBD
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text>
+                <strong>Seattle, WA</strong><br />
+                TBD
+            </mj-text>
+            <mj-text>
+                <strong>Seattle, WA</strong><br />
+                TBD
+            </mj-text>
+            <mj-text>
+                <strong>Seattle, WA</strong><br />
+                TBD
+            </mj-text>
+        </mj-column>
+      </mj-group>
+      <mj-group>
+        <mj-column>
+            <mj-text>
+                <strong>Seattle, WA</strong><br />
+                TBD
+            </mj-text>
+            <mj-text>
+                <strong>Seattle, WA</strong><br />
+                TBD
+            </mj-text>
+            <mj-text>
+                <strong>Seattle, WA</strong><br />
+                TBD
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text>
+                <strong>Seattle, WA</strong><br />
+                TBD
+            </mj-text>
+            <mj-text>
+                <strong>Seattle, WA</strong><br />
+                TBD
+            </mj-text>
+            <mj-text>
+                <strong>Seattle, WA</strong><br />
+                TBD
+            </mj-text>
+        </mj-column>
+      </mj-group>
     </mj-section>
     <mj-section padding="0px 0px 50px 0px">
       <mj-column padding="0">
@@ -152,7 +165,11 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#ffffff">
+
+      <mj-section background-color="#ffffff" direction="rtl">
+        <mj-column width="25%">
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/chat-icn_500x500.png" width="85px" />
+        </mj-column>
         <mj-column width="75%">
           <mj-text align="right" mj-class="column-title">
             Engage
@@ -161,10 +178,8 @@
             In discussions and interactive sessions about current issues facing APPs in oncology practice.
           </mj-text>
         </mj-column>
-        <mj-column width="25%">
-          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/chat-icn_500x500.png" width="85px" />
-        </mj-column>
       </mj-section>
+
       <mj-section background-color="#ffffff">
         <mj-column width="25%">
           <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/magnet-icn_500x500.png" width="85px" />
@@ -178,7 +193,11 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#ffffff">
+
+      <mj-section background-color="#ffffff" direction="rtl">
+        <mj-column width="25%">
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/handshake-icn_500x500.png" width="85px" />
+        </mj-column>
         <mj-column width="75%">
           <mj-text align="right" mj-class="column-title">
             Collaborate
@@ -186,9 +205,6 @@
           <mj-text align="right" padding-right="0" padding-top="0">
             In a peer-to-peer setting with other APPs and share your own experience.
           </mj-text>
-        </mj-column>
-        <mj-column width="25%">
-          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/handshake-icn_500x500.png" width="85px" />
         </mj-column>
       </mj-section>
       <!-- END: Overview Value -->
@@ -223,7 +239,7 @@
           <mj-text css-class="text-btn-module">Others involved in the care of oncology patients</mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding="15px 0 0 0">
+      <mj-section padding="30px 0 0 0">
         <mj-column>
           <mj-text align="center" padding="0" text-transform="uppercase" font-weight="600" color="#0B88A8">Offering up to 12 hours of ANCC, ACPE, & CME credit, <br />including pharmacology credit and BCOP credit</mj-text>
         </mj-column>
@@ -247,12 +263,14 @@
         </mj-column>
       </mj-section>
       <mj-section padding="15px 25px" background-color="#FFF">
-        <mj-column width="50%">
-          <mj-image src="https://via.placeholder.com/150x100" padding="0"></mj-image>
-        </mj-column>
-        <mj-column width="50%">
-          <mj-image src="https://via.placeholder.com/150x100" padding="0"></mj-image>
-        </mj-column>
+        <mj-group>
+          <mj-column width="50%">
+            <mj-image src="https://via.placeholder.com/150x100" padding="0"></mj-image>
+          </mj-column>
+          <mj-column width="50%">
+            <mj-image src="https://via.placeholder.com/150x100" padding="0"></mj-image>
+          </mj-column>
+        </mj-group>
       </mj-section>
     </mj-wrapper>
     <!-- END: Who Should Attend APPOS Section -->
