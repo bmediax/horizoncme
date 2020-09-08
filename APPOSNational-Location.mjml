@@ -76,7 +76,19 @@
   </mj-head>
   <mj-body background-color="#f8f8f8" width="600px">
     <!-- Header Section -->
-    <mj-include path="../APPOS-Modules/header.mjml"></mj-include>
+    <mj-section full-width="full-width" background-color="#FFF" padding="50px 0px" border-top="10px solid #0B88A8">
+        <mj-column width="100%">
+        <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS-icon.png" alt="APPOS 2021 Icon" align="center" width="100px" />
+        <mj-text color="#1B2C4C" font-family="Montserrat, Helvetica, Arial, sans-serif" font-weight="bold" align="center" text-transform="uppercase" font-size="28px" line-height="40px">
+            Announcing<br />
+            2021 <span style="color:#0B88A8">APP</span> <span style="color:#8EC63E">ONCOLOGY SUMMIT</span><br />
+            (APPOS) LOCATIONS!
+        </mj-text>
+        <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="16px" font-style="italic" align="center">
+            Find Your Location and Mark Your Calendars Now!
+        </mj-text>
+        </mj-column>
+    </mj-section>
 
     <!-- Locations Section -->
     <mj-section padding="50px 0px 0px 0px">
@@ -213,7 +225,7 @@
     
     <!-- Overview Section -->
     <mj-wrapper padding="0">
-      <mj-section background-color="#fff" padding-left="15px" padding-right="15px">
+      <mj-section background-color="#fff">
         <mj-column width="100%">
           <mj-text mj-class="section-title">
             Overview
