@@ -18,8 +18,6 @@
     <!-- <mj-class name="column-title" color="#8EC63E" line-height="40px" font-weight="bold" padding="0px" font-size="18px" font-family="Montserrat" text-transform="uppercase"></mj-class> -->
     <!-- CSS Styles -->
     <mj-style>
-    .body-section {-webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); }
-
     .text-link { color: #5e6ebf }
 
     .location-item {
@@ -76,7 +74,7 @@
     }
     </mj-style>
   </mj-head>
-  <mj-body background-color="#fafafa" width="600px">
+  <mj-body background-color="#f8f8f8" width="600px">
     <!-- Header Section -->
     <mj-include path="../APPOS-Modules/header.mjml"></mj-include>
 
@@ -86,7 +84,7 @@
             <mj-text mj-class="section-title" padding-bottom="20px" >
                 Complete 2021 APPOS <br />List of Locations
             </mj-text>
-            <mj-image src="https://via.placeholder.com/600x400?text=Map" padding="0px 0px" />
+            <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS2021_Map_1200x792.png" padding="0px 25px" />
             <mj-text color="#3F4F5E" font-family="Montserrat" font-size="16px" font-style="italic" align="center" padding-top="20px">
                 Be on the lookout in October when we will announce<br />
                 If 2021 APPOS conferences will be LIVE or VIRTUAL.
@@ -214,8 +212,8 @@
     <!-- END: Locations Column -->
     
     <!-- Overview Section -->
-    <mj-wrapper padding-top="0" padding-bottom="30px" css-class="body-section">
-      <mj-section background-color="#ffffff">
+    <mj-wrapper padding="0">
+      <mj-section background-color="#fff">
         <mj-column width="100%">
           <mj-text mj-class="section-title">
             Overview
@@ -273,7 +271,7 @@
         </mj-column>
       </mj-section>
 
-      <mj-section background-color="#ffffff" direction="rtl">
+      <mj-section background-color="#ffffff" direction="rtl" padding-bottom="30px">
         <mj-column width="25%">
           <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/handshake-icn_500x500.png" width="85px" />
         </mj-column>
@@ -291,7 +289,7 @@
     <!-- END: Overview Section -->
 
     <!-- Who Should Attend APPOS Section -->
-    <mj-wrapper css-class="body-section" background-color="#2F3D4A" padding="30px 25px">
+    <mj-wrapper background-color="#2F3D4A" padding="30px 25px">
       <mj-section padding="0">
         <mj-column>
           <mj-text mj-class="column-title-light">Who Should Attend APPOS?</mj-text>
@@ -320,17 +318,17 @@
       </mj-section>
       <mj-section padding="30px 0 0 0">
         <mj-column>
-          <mj-text align="center" padding="0" text-transform="uppercase" font-weight="600" color="#0B88A8">Offering up to 12 hours of ANCC, ACPE, & CME credit, <br />including pharmacology credit and BCOP credit</mj-text>
+          <mj-text align="center" padding="0" text-transform="uppercase" font-weight="600" color="#fff">Offering up to 12 hours of ANCC, ACPE, & CME credit, <br />including pharmacology credit and BCOP credit</mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>
     <!-- END: Who Should Attend APPOS Section -->
 
     <!-- Student Registration Section -->
-    <mj-wrapper padding="0 0 0 0" css-class="body-section">
-      <mj-section background-color="#FFF" padding="25px 0px">
+    <mj-wrapper padding="0 0 0 0">
+      <mj-section background-color="#8EC63E" padding="25px 0px">
         <mj-column>
-          <mj-text align="center" font-weight="500">
+          <mj-text align="center" font-weight="500" color="#FFF">
             Student registration fee is $35 All students, please contact <a href="#">info@horizoncme.com</a> for further information.
           </mj-text>
         </mj-column>
@@ -339,23 +337,37 @@
     <!-- END: Student Registration -->
 
     <!-- In Partnership with Section -->
-    <mj-wrapper padding="0px" css-class="body-section">
-      <mj-section background-color="#FFF">
+    <mj-wrapper background-color="#FFF" padding="30px 0px">
+      <mj-section padding="0px 0px 15px 0px">
         <mj-column>
-          <mj-text mj-class="section-title">
+          <mj-text mj-class="section-title" font-size="22px" padding="0px">
             In Partnership with:
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding="15px 25px" background-color="#FFF">
-        <mj-group>
-          <mj-column width="50%">
-            <mj-image src="https://via.placeholder.com/150x100" padding="0"></mj-image>
-          </mj-column>
-          <mj-column width="50%">
-            <mj-image src="https://via.placeholder.com/150x100" padding="0"></mj-image>
-          </mj-column>
-        </mj-group>
+      <mj-section padding="0px 25px 15px 25px" background-color="#FFF">
+        <mj-column width="30%" vertical-align="middle">
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/Emails/Logos/coa_logo.png" width="100px" padding="0"></mj-image>
+        </mj-column>
+        <mj-column width="70%" vertical-align="middle">
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/Emails/Logos/APAO--logo.png" width="350px" padding="0"></mj-image>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- In Partnership with Section -->
+    <mj-wrapper background-color="#FFF" padding="30px 0px">
+      <mj-section padding="0px 0px 15px 0px">
+        <mj-column>
+          <mj-text mj-class="section-title" font-size="22px" padding="0px">
+            In Collaboration with:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px 25px 40px 25px" background-color="#FFF">
+        <mj-column>
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/HOPA.png" width="300px"></mj-image>
+        </mj-column>
       </mj-section>
     </mj-wrapper>
 
