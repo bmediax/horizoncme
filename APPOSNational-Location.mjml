@@ -81,8 +81,7 @@
         <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS-icon.png" alt="APPOS 2021 Icon" align="center" width="100px" />
         <mj-text color="#1B2C4C" font-family="Montserrat, Helvetica, Arial, sans-serif" font-weight="bold" align="center" text-transform="uppercase" font-size="28px" line-height="40px">
             Announcing<br />
-            2021 <span style="color:#0B88A8">APP</span> <span style="color:#8EC63E">ONCOLOGY SUMMIS</span><br />
-            (APPOS) LOCATIONS!
+            2021 <span style="color:#0B88A8">APP</span> <span style="color:#8EC63E">ONCOLOGY SUMMIS</span> (APPOS) LOCATIONS!
         </mj-text>
         <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS2021_Map_1200x792.png" alt="APPOS 2021 Locations" padding="0px 25px" />
         <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="16px" font-style="italic" align="center">
@@ -219,7 +218,7 @@
     <!-- END: Locations Section -->
 
     <!-- Locations Column -->
-    <mj-section background-color="#fff">
+    <mj-section background-color="#fff" padding="0 30px">
       <mj-group>
         <mj-column>
           <mj-text css-class="location-item">
