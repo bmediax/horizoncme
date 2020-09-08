@@ -81,22 +81,135 @@
         <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS-icon.png" alt="APPOS 2021 Icon" align="center" width="100px" />
         <mj-text color="#1B2C4C" font-family="Montserrat, Helvetica, Arial, sans-serif" font-weight="bold" align="center" text-transform="uppercase" font-size="28px" line-height="40px">
             Announcing<br />
-            2021 <span style="color:#0B88A8">APP</span> <span style="color:#8EC63E">ONCOLOGY SUMMIT</span><br />
+            2021 <span style="color:#0B88A8">APP</span> <span style="color:#8EC63E">ONCOLOGY SUMMIS</span><br />
             (APPOS) LOCATIONS!
         </mj-text>
+        <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS2021_Map_1200x792.png" alt="APPOS 2021 Locations" padding="0px 25px" />
         <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="16px" font-style="italic" align="center">
             Find Your Location and Mark Your Calendars Now!
         </mj-text>
         </mj-column>
     </mj-section>
 
+    <!-- Overview Section -->
+    <mj-wrapper padding="30px 0px">
+      <mj-section>
+        <mj-column width="100%">
+          <mj-text mj-class="section-title">
+            Overview
+          </mj-text>
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/appos_1000x190.png" />
+          <mj-text>
+            APPOS is a two-day conference designed to provide advanced practice providers (APPs) with the latest evidenced-based strategies to optimize care and outcomes for patients with cancer.
+          </mj-text>
+          <mj-text>
+            Attend this conference and learn the latest clinical and practical strategies to improve care for your oncology patients and communication within your healthcare team.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Overview Value -->
+      <mj-section>
+        <mj-column width="25%">
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/light-icn_500x500.png" width="85px" />
+        </mj-column>
+        <mj-column width="75%">
+          <mj-text css-class="column-title">
+            Learn
+          </mj-text>
+          <mj-text padding-top="0" padding-left="0" css-class="column-desc">
+            The latest practice improvements from health care professionals from across the country.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section direction="rtl">
+        <mj-column width="25%">
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/chat-icn_500x500.png" width="85px" />
+        </mj-column>
+        <mj-column width="75%">
+          <mj-text align="right" css-class="column-title">
+            Engage
+          </mj-text>
+          <mj-text align="right" padding-right="0" padding-top="0" css-class="column-desc">
+            In discussions and interactive sessions about current issues facing APPs in oncology practice.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="25%">
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/magnet-icn_500x500.png" width="85px" />
+        </mj-column>
+        <mj-column width="75%">
+          <mj-text css-class="column-title">
+            Network
+          </mj-text>
+          <mj-text padding-left="0" padding-top="0" css-class="column-desc">
+            With like-minded clinicians from your region and gain valuable professional connections.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section direction="rtl">
+        <mj-column width="25%">
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/handshake-icn_500x500.png" width="85px" />
+        </mj-column>
+        <mj-column width="75%">
+          <mj-text align="right" css-class="column-title">
+            Collaborate
+          </mj-text>
+          <mj-text align="right" padding-right="0" padding-top="0" css-class="column-desc">
+            In a peer-to-peer setting with other APPs and share your own experience.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- END: Overview Value -->
+    </mj-wrapper>
+    <!-- END: Overview Section -->
+
+    <!-- Who Should Attend APPOS Section -->
+    <mj-wrapper background-color="#2F3D4A" padding="30px 25px">
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="column-title-light">Who Should Attend APPOS?</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text css-class="text-btn-module">Pharmacists</mj-text>
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-text css-class="text-btn-module">Nurse Practitioners</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text css-class="text-btn-module">Physician Assistants</mj-text>
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-text css-class="text-btn-module">Nurses</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column padding="0px">
+          <mj-text css-class="text-btn-module">Others involved in the care of oncology patients</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="30px 0 0 0">
+        <mj-column>
+          <mj-text align="center" padding="0" text-transform="uppercase" font-weight="600" color="#fff">Offering up to 12 hours of ANCC, ACPE, & CME credit, <br />including pharmacology credit and BCOP credit</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- END: Who Should Attend APPOS Section -->
+
     <!-- Locations Section -->
-    <mj-section padding="50px 0px 0px 0px">
+    <mj-section padding="50px 0px 0px 0px" background-color="#fff">
         <mj-column width="100%">
             <mj-text mj-class="section-title" padding-bottom="20px" >
                 Complete 2021 APPOS <br />List of Locations
             </mj-text>
-            <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS2021_Map_1200x792.png" padding="0px 25px" />
             <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="16px" font-style="italic" align="center" padding-top="20px">
                 Be on the lookout in October when we will announce<br />
                 If 2021 APPOS conferences will be LIVE or VIRTUAL.
@@ -106,7 +219,101 @@
     <!-- END: Locations Section -->
 
     <!-- Locations Column -->
-    <mj-section padding="20px 15px 0px 15px">
+    <mj-section background-color="#fff">
+      <mj-group>
+        <mj-column>
+          <mj-text css-class="location-item">
+              <strong>Atlanta</strong><br />
+              January 29-30
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>Pasadena/Los Angeles</strong><br />
+              February 5-6
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>Tampa</strong><br />
+              February 19-20
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>Boston</strong><br />
+              March 5-6
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>Austin</strong><br />
+              April 2-3
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text css-class="location-item">
+              <strong>Nashville</strong><br />
+              April 30-May 1
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>Cleveland</strong><br />
+              April 30 – May 1
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>Philadelphia</strong><br />
+              May 14-15
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>Miami</strong><br />
+              May 21-22
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>Baltimore</strong><br />
+              June 11-12
+          </mj-text>
+        </mj-column>
+      </mj-group>
+      <mj-group>
+        <mj-column>
+          <mj-text css-class="location-item">
+              <strong>Scottsdale</strong><br />
+              July 16-17
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>New York City</strong><br />
+              August 13-14
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>Norfolk</strong><br />
+              September 10-11
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>Portland</strong><br />
+              October 8-9
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>Detroit</strong><br />
+              November 5-6
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text css-class="location-item">
+              <strong>Chicago</strong><br />
+              TBD
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>Cincinnati</strong><br />
+              TBD
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>Denver</strong><br />
+              TBD
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>Honolulu</strong><br />
+              TBD
+          </mj-text>
+          <mj-text css-class="location-item">
+              <strong>Minneapolis</strong><br />
+              TBD
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- <mj-section padding="20px 15px 0px 15px">
       <mj-group>
         <mj-column>
             <mj-text css-class="location-item">
@@ -215,126 +422,13 @@
           </mj-text>
         </mj-column>
       </mj-group>
-    </mj-section>
-    <mj-section padding="0px 0px 50px 0px">
+    </mj-section> -->
+    <mj-section padding="0px 0px 50px 0px" background-color="#fff">
       <mj-column padding="0">
           <mj-button mj-class="primary-btn" font-weight="bold" href="https://apponcologysummit.mededmanager.com/#all_locations">View All</mj-button>
       </mj-column>
     </mj-section>
     <!-- END: Locations Column -->
-    
-    <!-- Overview Section -->
-    <mj-wrapper padding="0">
-      <mj-section background-color="#fff">
-        <mj-column width="100%">
-          <mj-text mj-class="section-title">
-            Overview
-          </mj-text>
-          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/appos_1000x190.png" />
-          <mj-text>
-            APPOS is a two-day conference designed to provide advanced practice providers (APPs) with the latest evidenced-based strategies to optimize care and outcomes for patients with cancer.
-          </mj-text>
-          <mj-text>
-            Attend this conference and learn the latest clinical and practical strategies to improve care for your oncology patients and communication within your healthcare team.
-          </mj-text>
-        </mj-column>
-      </mj-section>
-
-      <!-- Overview Value -->
-      <mj-section background-color="#ffffff">
-        <mj-column width="25%">
-          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/light-icn_500x500.png" width="85px" />
-        </mj-column>
-        <mj-column width="75%">
-          <mj-text css-class="column-title">
-            Learn
-          </mj-text>
-          <mj-text padding-top="0" padding-left="0" css-class="column-desc">
-            The latest practice improvements from health care professionals from across the country.
-          </mj-text>
-        </mj-column>
-      </mj-section>
-
-      <mj-section background-color="#ffffff" direction="rtl">
-        <mj-column width="25%">
-          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/chat-icn_500x500.png" width="85px" />
-        </mj-column>
-        <mj-column width="75%">
-          <mj-text align="right" css-class="column-title">
-            Engage
-          </mj-text>
-          <mj-text align="right" padding-right="0" padding-top="0" css-class="column-desc">
-            In discussions and interactive sessions about current issues facing APPs in oncology practice.
-          </mj-text>
-        </mj-column>
-      </mj-section>
-
-      <mj-section background-color="#ffffff">
-        <mj-column width="25%">
-          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/magnet-icn_500x500.png" width="85px" />
-        </mj-column>
-        <mj-column width="75%">
-          <mj-text css-class="column-title">
-            Network
-          </mj-text>
-          <mj-text padding-left="0" padding-top="0" css-class="column-desc">
-            With like-minded clinicians from your region and gain valuable professional connections.
-          </mj-text>
-        </mj-column>
-      </mj-section>
-
-      <mj-section background-color="#ffffff" direction="rtl" padding-bottom="30px">
-        <mj-column width="25%">
-          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/handshake-icn_500x500.png" width="85px" />
-        </mj-column>
-        <mj-column width="75%">
-          <mj-text align="right" css-class="column-title">
-            Collaborate
-          </mj-text>
-          <mj-text align="right" padding-right="0" padding-top="0" css-class="column-desc">
-            In a peer-to-peer setting with other APPs and share your own experience.
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <!-- END: Overview Value -->
-    </mj-wrapper>
-    <!-- END: Overview Section -->
-
-    <!-- Who Should Attend APPOS Section -->
-    <mj-wrapper background-color="#2F3D4A" padding="30px 25px">
-      <mj-section padding="0">
-        <mj-column>
-          <mj-text mj-class="column-title-light">Who Should Attend APPOS?</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="0">
-        <mj-column>
-          <mj-text css-class="text-btn-module">Pharmacists</mj-text>
-        </mj-column>
-        <mj-column padding="0px">
-          <mj-text css-class="text-btn-module">Nurse Practitioners</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="0">
-        <mj-column>
-          <mj-text css-class="text-btn-module">Physician Assistants</mj-text>
-        </mj-column>
-        <mj-column padding="0px">
-          <mj-text css-class="text-btn-module">Nurses</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="0">
-        <mj-column padding="0px">
-          <mj-text css-class="text-btn-module">Others involved in the care of oncology patients</mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section padding="30px 0 0 0">
-        <mj-column>
-          <mj-text align="center" padding="0" text-transform="uppercase" font-weight="600" color="#fff">Offering up to 12 hours of ANCC, ACPE, & CME credit, <br />including pharmacology credit and BCOP credit</mj-text>
-        </mj-column>
-      </mj-section>
-    </mj-wrapper>
-    <!-- END: Who Should Attend APPOS Section -->
 
     <!-- Student Registration Section -->
     <mj-wrapper padding="0 0 0 0">
