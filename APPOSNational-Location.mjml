@@ -18,7 +18,7 @@
     <!-- <mj-class name="column-title" color="#8EC63E" line-height="40px" font-weight="bold" padding="0px" font-size="18px" font-family="Montserrat" text-transform="uppercase"></mj-class> -->
     <!-- CSS Styles -->
     <mj-style>
-    .body-section { -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); }
+    .body-section {-webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1); }
 
     .text-link { color: #5e6ebf }
 
@@ -53,6 +53,7 @@
       font-weight:bold !important;
       padding:13px 0px;
       display:block;
+      border-radius:10px !important;
     }
 
     @media screen and (max-width:479px) {
@@ -67,11 +68,15 @@
       .column-desc div {
         text-align:left !important;
       }
+
+      .text-btn-module {
+        padding-left:15px !important;
+        padding-right:15px !important;
+      }
     }
     </mj-style>
   </mj-head>
   <mj-body background-color="#fafafa" width="600px">
-
     <!-- Header Section -->
     <mj-include path="../APPOS-Modules/header.mjml"></mj-include>
 
@@ -215,7 +220,7 @@
           <mj-text mj-class="section-title">
             Overview
           </mj-text>
-          <mj-image src="https://via.placeholder.com/600x200?text=APPOS-Logo" />
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/appos_1000x190.png" />
           <mj-text>
             APPOS is a two-day conference designed to provide advanced practice providers (APPs) with the latest evidenced-based strategies to optimize care and outcomes for patients with cancer.
           </mj-text>
