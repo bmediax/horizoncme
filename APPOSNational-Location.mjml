@@ -4,12 +4,12 @@
     <mj-preview>Locations</mj-preview>
     <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&display=swap" />
     <mj-attributes>
-      <mj-all font-family="'Montserrat', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-all font-family="Montserrat, Helvetica, Arial, sans-serif"></mj-all>
       <mj-text font-size="15px" color="#3F4F5E" line-height="25px" font-family="'Montserrat', Helvetica, Arial, sans-serif"></mj-text>
 
       <!-- Text Style Class -->
-      <mj-class name="section-title" line-height="40px" font-family="'Montserrat'" color="#3F4F5E" font-size="25px" align="center" font-weight="bold" text-transform="uppercase"></mj-class> 
-      <mj-class name="column-title-light" color="#FFF" align="center" line-height="40px" font-weight="bold" padding="0px 0px 15px 0px" font-size="25px" font-family="Montserrat" text-transform="uppercase"></mj-class>
+      <mj-class name="section-title" line-height="40px" font-family="Montserrat, Helvetica, Arial, sans-serif" color="#3F4F5E" font-size="25px" align="center" font-weight="bold" text-transform="uppercase"></mj-class> 
+      <mj-class name="column-title-light" color="#FFF" align="center" line-height="40px" font-weight="bold" padding="0px 0px 15px 0px" font-size="25px" font-family="Montserrat, Helvetica, Arial, sans-serif" text-transform="uppercase"></mj-class>
 
       <!-- Button Style Class -->
       <mj-class name="primary-btn" height="45px" width="200px" font-size="15px" text-transform="uppercase" letter-spacing="1px" border-radius="10px" color="#FFF"background-color="#0B88A8"></mj-style>
@@ -85,7 +85,7 @@
                 Complete 2021 APPOS <br />List of Locations
             </mj-text>
             <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS2021_Map_1200x792.png" padding="0px 25px" />
-            <mj-text color="#3F4F5E" font-family="Montserrat" font-size="16px" font-style="italic" align="center" padding-top="20px">
+            <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="16px" font-style="italic" align="center" padding-top="20px">
                 Be on the lookout in October when we will announce<br />
                 If 2021 APPOS conferences will be LIVE or VIRTUAL.
             </mj-text>
@@ -206,14 +206,14 @@
     </mj-section>
     <mj-section padding="0px 0px 50px 0px">
       <mj-column padding="0">
-          <mj-button mj-class="primary-btn" font-weight="bold" href="#">View All</mj-button>
+          <mj-button mj-class="primary-btn" font-weight="bold" href="https://apponcologysummit.mededmanager.com/#all_locations">View All</mj-button>
       </mj-column>
     </mj-section>
     <!-- END: Locations Column -->
     
     <!-- Overview Section -->
     <mj-wrapper padding="0">
-      <mj-section background-color="#fff">
+      <mj-section background-color="#fff" padding-left="15px" padding-right="15px">
         <mj-column width="100%">
           <mj-text mj-class="section-title">
             Overview
@@ -329,7 +329,7 @@
       <mj-section background-color="#8EC63E" padding="25px 0px">
         <mj-column>
           <mj-text align="center" font-weight="500" color="#FFF">
-            Student registration fee is $35 All students, please contact <a href="#">info@horizoncme.com</a> for further information.
+            Student registration fee is $35 All students, please contact <a href="mailto:info@horizoncme.com">info@horizoncme.com</a> for further information.
           </mj-text>
         </mj-column>
       </mj-section>
