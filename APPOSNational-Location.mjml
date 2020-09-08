@@ -22,6 +22,14 @@
 
     .text-link { color: #5e6ebf }
 
+    .location-item {
+      padding:10px 0px !important;
+    }
+
+    .location-item div {
+      text-align:center !important;
+    }
+
     .column-title {
       padding:0 !important;
     }
@@ -83,65 +91,113 @@
     <!-- END: Locations Section -->
 
     <!-- Locations Column -->
-    <mj-section padding="20px 0px 20px 0px">
+    <mj-section padding="20px 15px 0px 15px">
       <mj-group>
         <mj-column>
-            <mj-text>
-                <strong>Seattle, WA</strong><br />
-                TBD
+            <mj-text css-class="location-item">
+                <strong>Atlanta</strong><br />
+                January 29-30
             </mj-text>
-            <mj-text>
-                <strong>Seattle, WA</strong><br />
-                TBD
+            <mj-text css-class="location-item">
+                <strong>Pasadena/Los Angeles</strong><br />
+                February 5-6
             </mj-text>
-            <mj-text>
-                <strong>Seattle, WA</strong><br />
-                TBD
+            <mj-text css-class="location-item">
+                <strong>Tampa</strong><br />
+                February 19-20
+            </mj-text>
+            <mj-text css-class="location-item">
+                <strong>Boston</strong><br />
+                March 5-6
+            </mj-text>
+            <mj-text css-class="location-item">
+                <strong>Austin</strong><br />
+                April 2-3
             </mj-text>
         </mj-column>
         <mj-column>
-            <mj-text>
-                <strong>Seattle, WA</strong><br />
-                TBD
+            <mj-text css-class="location-item">
+                <strong>Nashville</strong><br />
+                April 30-May 1
             </mj-text>
-            <mj-text>
-                <strong>Seattle, WA</strong><br />
-                TBD
+            <mj-text css-class="location-item">
+                <strong>Cleveland</strong><br />
+                April 30 – May 1
             </mj-text>
-            <mj-text>
-                <strong>Seattle, WA</strong><br />
-                TBD
+            <mj-text css-class="location-item">
+                <strong>Philadelphia</strong><br />
+                May 14-15
+            </mj-text>
+            <mj-text css-class="location-item">
+                <strong>Miami</strong><br />
+                May 21-22
+            </mj-text>
+            <mj-text css-class="location-item">
+                <strong>Baltimore</strong><br />
+                June 11-12
             </mj-text>
         </mj-column>
       </mj-group>
       <mj-group>
         <mj-column>
-            <mj-text>
-                <strong>Seattle, WA</strong><br />
-                TBD
+            <mj-text css-class="location-item">
+                <strong>Scottsdale</strong><br />
+                July 16-17
             </mj-text>
-            <mj-text>
-                <strong>Seattle, WA</strong><br />
-                TBD
+            <mj-text css-class="location-item">
+                <strong>New York City</strong><br />
+                August 13-14
             </mj-text>
-            <mj-text>
-                <strong>Seattle, WA</strong><br />
-                TBD
+            <mj-text css-class="location-item">
+                <strong>Norfolk</strong><br />
+                September 10-11
+            </mj-text>
+            <mj-text css-class="location-item">
+                <strong>Portland</strong><br />
+                October 8-9
+            </mj-text>
+            <mj-text css-class="location-item">
+                <strong>Detroit</strong><br />
+                November 5-6
             </mj-text>
         </mj-column>
         <mj-column>
-            <mj-text>
-                <strong>Seattle, WA</strong><br />
+            <mj-text css-class="location-item">
+                <strong>Chicago</strong><br />
                 TBD
             </mj-text>
-            <mj-text>
-                <strong>Seattle, WA</strong><br />
+            <mj-text css-class="location-item">
+                <strong>Cincinnati</strong><br />
                 TBD
             </mj-text>
-            <mj-text>
-                <strong>Seattle, WA</strong><br />
+            <mj-text css-class="location-item">
+                <strong>Denver</strong><br />
                 TBD
             </mj-text>
+            <mj-text css-class="location-item">
+                <strong>Honolulu</strong><br />
+                TBD
+            </mj-text>
+            <mj-text css-class="location-item">
+                <strong>Minneapolis</strong><br />
+                TBD
+            </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding="0px 0px 20px 0px">
+      <mj-group>
+        <mj-column>
+          <mj-text css-class="location-item">
+            <strong>San Francisco</strong><br />
+            TBD
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text css-class="location-item">
+            <strong>Seattle</strong><br />
+            TBD
+          </mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
