@@ -168,7 +168,7 @@
     <!-- END: Overview Section -->
 
     <!-- Who Should Attend APPOS Section -->
-    <mj-wrapper background-color="#2F3D4A" padding="30px 25px">
+    <mj-wrapper full-width="full-width" background-color="#2F3D4A" padding="30px 25px">
       <mj-section padding="0">
         <mj-column>
           <mj-text mj-class="column-title-light">Who Should Attend APPOS?</mj-text>
