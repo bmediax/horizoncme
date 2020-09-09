@@ -28,6 +28,15 @@
       text-align:center !important;
     }
 
+    .location-item a {
+      text-decoration:underline !important;
+      color:#3F4F5E !important;
+    }
+
+    .location-item a:hover {
+      color:#0B88A8 !important;
+    }
+
     .column-title {
       padding:0 !important;
     }
@@ -79,13 +88,14 @@
     <mj-section full-width="full-width" background-color="#fafafa" padding="50px 0px" border-top="8px solid #0B88A8">
         <mj-column width="100%">
         <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS-icon.png" alt="APPOS 2021 Icon" align="center" width="100px" border-radius="50%" border="2px solid rgb(240, 240, 240)" />
-        <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-weight="bold" align="center" text-transform="uppercase" font-size="22px" line-height="30px">
+        <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-weight="bold" align="center" text-transform="uppercase" font-size="28px" line-height="40px">
             Announcing<br />
             2021 APP ONCOLOGY SUMMITS (APPOS) LOCATIONS!
         </mj-text>
         <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS2021_Map_1200x792.png" alt="APPOS 2021 Locations" padding="0px 25px" />
         <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="16px" font-style="italic" align="center">
-            Find Your Location and Mark Your Calendars Now!
+            Be on the lookout in October when we will announce<br />
+                If 2021 APPOS conferences will be LIVE or VIRTUAL.
         </mj-text>
         </mj-column>
     </mj-section>
@@ -222,45 +232,45 @@
       <mj-group>
         <mj-column>
           <mj-text css-class="location-item">
-              <strong>Atlanta</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Atlanta</strong></a><br />
               January 29-30
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>Pasadena/Los Angeles</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Pasadena</strong></a><br />
               February 5-6
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>Tampa</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Tampa</strong></a><br />
               February 19-20
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>Boston</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Boston</strong></a><br />
               March 5-6
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>Austin</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Austin</strong></a><br />
               April 2-3
           </mj-text>
         </mj-column>
         <mj-column>
           <mj-text css-class="location-item">
-              <strong>Nashville</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Nashville</strong></a><br />
               April 30-May 1
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>Cleveland</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Cleveland</strong></a><br />
               April 30 – May 1
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>Philadelphia</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Philadelphia</strong></a><br />
               May 14-15
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>Miami</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Miami</strong></a><br />
               May 21-22
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>Baltimore</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Baltimore</strong></a><br />
               June 11-12
           </mj-text>
         </mj-column>
@@ -268,45 +278,45 @@
       <mj-group>
         <mj-column>
           <mj-text css-class="location-item">
-              <strong>Scottsdale</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Scottsdale</strong></a><br />
               July 16-17
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>New York City</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>New York City</strong></a><br />
               August 13-14
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>Norfolk</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Norfolk</strong></a><br />
               September 10-11
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>Portland</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Portland</strong></a><br />
               October 8-9
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>Detroit</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Detroit</strong></a><br />
               November 5-6
           </mj-text>
         </mj-column>
         <mj-column>
           <mj-text css-class="location-item">
-              <strong>Chicago</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Chicago</strong></a><br />
               TBD
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>Cincinnati</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Cincinnati</strong></a><br />
               TBD
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>Denver</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Denver</strong></a><br />
               TBD
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>Honolulu</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Honolulu</strong></a><br />
               TBD
           </mj-text>
           <mj-text css-class="location-item">
-              <strong>Minneapolis</strong><br />
+              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Minneapolis</strong></a><br />
               TBD
           </mj-text>
         </mj-column>
