@@ -78,7 +78,7 @@
     <!-- Header Section -->
     <mj-section full-width="full-width" background-color="#fafafa" padding="50px 0px" border-top="8px solid #0B88A8">
         <mj-column width="100%">
-        <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS-icon.png" alt="APPOS 2021 Icon" align="center" width="100px" />
+        <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS-icon.png" alt="APPOS 2021 Icon" align="center" width="100px" border-radius="50%" border="2px solid rgb(240, 240, 240)" />
         <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-weight="bold" align="center" text-transform="uppercase" font-size="22px" line-height="30px">
             Announcing<br />
             2021 APP ONCOLOGY SUMMITS (APPOS) LOCATIONS!
