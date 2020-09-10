@@ -232,45 +232,45 @@
       <mj-group>
         <mj-column>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Atlanta</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Atlanta</strong></a><br />
               January 29-30
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Pasadena</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Pasadena</strong></a><br />
               February 5-6
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Tampa</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Tampa</strong></a><br />
               February 19-20
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Boston</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Boston</strong></a><br />
               March 5-6
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Austin</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Austin</strong></a><br />
               April 2-3
           </mj-text>
         </mj-column>
         <mj-column>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Nashville</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Nashville</strong></a><br />
               April 30-May 1
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Cleveland</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Cleveland</strong></a><br />
               April 30 – May 1
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Philadelphia</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Philadelphia</strong></a><br />
               May 14-15
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Miami</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Miami</strong></a><br />
               May 21-22
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Baltimore</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Baltimore</strong></a><br />
               June 11-12
           </mj-text>
         </mj-column>
@@ -278,160 +278,52 @@
       <mj-group>
         <mj-column>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Scottsdale</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Scottsdale</strong></a><br />
               July 16-17
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>New York City</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>New York City</strong></a><br />
               August 13-14
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Norfolk</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Norfolk</strong></a><br />
               September 10-11
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Portland</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Portland</strong></a><br />
               October 8-9
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Detroit</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Detroit</strong></a><br />
               November 5-6
           </mj-text>
         </mj-column>
         <mj-column>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Chicago</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Chicago</strong></a><br />
               TBD
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Cincinnati</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Cincinnati</strong></a><br />
               TBD
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Denver</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Denver</strong></a><br />
               TBD
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Honolulu</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Honolulu</strong></a><br />
               TBD
           </mj-text>
           <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/store/pages/about"><strong>Minneapolis</strong></a><br />
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Minneapolis</strong></a><br />
               TBD
           </mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
-    <!-- <mj-section padding="20px 15px 0px 15px">
-      <mj-group>
-        <mj-column>
-            <mj-text css-class="location-item">
-                <strong>Atlanta</strong><br />
-                January 29-30
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>Pasadena/Los Angeles</strong><br />
-                February 5-6
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>Tampa</strong><br />
-                February 19-20
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>Boston</strong><br />
-                March 5-6
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>Austin</strong><br />
-                April 2-3
-            </mj-text>
-        </mj-column>
-        <mj-column>
-            <mj-text css-class="location-item">
-                <strong>Nashville</strong><br />
-                April 30-May 1
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>Cleveland</strong><br />
-                April 30 – May 1
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>Philadelphia</strong><br />
-                May 14-15
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>Miami</strong><br />
-                May 21-22
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>Baltimore</strong><br />
-                June 11-12
-            </mj-text>
-        </mj-column>
-      </mj-group>
-      <mj-group>
-        <mj-column>
-            <mj-text css-class="location-item">
-                <strong>Scottsdale</strong><br />
-                July 16-17
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>New York City</strong><br />
-                August 13-14
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>Norfolk</strong><br />
-                September 10-11
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>Portland</strong><br />
-                October 8-9
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>Detroit</strong><br />
-                November 5-6
-            </mj-text>
-        </mj-column>
-        <mj-column>
-            <mj-text css-class="location-item">
-                <strong>Chicago</strong><br />
-                TBD
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>Cincinnati</strong><br />
-                TBD
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>Denver</strong><br />
-                TBD
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>Honolulu</strong><br />
-                TBD
-            </mj-text>
-            <mj-text css-class="location-item">
-                <strong>Minneapolis</strong><br />
-                TBD
-            </mj-text>
-        </mj-column>
-      </mj-group>
-    </mj-section>
-    <mj-section padding="0px 0px 20px 0px">
-      <mj-group>
-        <mj-column>
-          <mj-text css-class="location-item">
-            <strong>San Francisco</strong><br />
-            TBD
-          </mj-text>
-        </mj-column>
-        <mj-column>
-          <mj-text css-class="location-item">
-            <strong>Seattle</strong><br />
-            TBD
-          </mj-text>
-        </mj-column>
-      </mj-group>
-    </mj-section> -->
+
+    <!-- Button -->
     <mj-section padding="0px 0px 50px 0px" background-color="#fff">
       <mj-column padding="0">
           <mj-button mj-class="primary-btn" font-weight="bold" href="https://apponcologysummit.mededmanager.com/#all_locations">View All</mj-button>
