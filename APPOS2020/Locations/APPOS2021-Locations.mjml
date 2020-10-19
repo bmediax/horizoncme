@@ -1,0 +1,384 @@
+<mjml>
+  <mj-head>
+    <mj-title>National APPOS 2021 Locations</mj-title>
+    <mj-preview>Locations</mj-preview>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-size="15px" color="#3F4F5E" line-height="25px" font-family="'Montserrat', Helvetica, Arial, sans-serif"></mj-text>
+
+      <!-- Text Style Class -->
+      <mj-class name="section-title" line-height="40px" font-family="Montserrat, Helvetica, Arial, sans-serif" color="#3F4F5E" font-size="25px" align="center" font-weight="bold" text-transform="uppercase"></mj-class> 
+      <mj-class name="column-title-light" color="#FFF" align="center" line-height="40px" font-weight="bold" padding="0px 0px 15px 0px" font-size="25px" font-family="Montserrat, Helvetica, Arial, sans-serif" text-transform="uppercase"></mj-class>
+
+      <!-- Button Style Class -->
+      <mj-class name="primary-btn" height="45px" width="200px" font-size="15px" text-transform="uppercase" letter-spacing="1px" border-radius="10px" color="#FFF"background-color="#0B88A8"></mj-style>
+    </mj-attributes>
+
+    <!-- <mj-class name="column-title" color="#8EC63E" line-height="40px" font-weight="bold" padding="0px" font-size="18px" font-family="Montserrat" text-transform="uppercase"></mj-class> -->
+    <!-- CSS Styles -->
+    <mj-style>
+    .text-link { color: #5e6ebf }
+
+    .location-item {
+      padding:10px 0px !important;
+    }
+
+    .location-item div {
+      text-align:center !important;
+    }
+
+    .location-item a {
+      text-decoration:underline !important;
+      color:#3F4F5E !important;
+    }
+
+    .location-item a:hover {
+      color:#0B88A8 !important;
+    }
+
+    .column-title {
+      padding:0 !important;
+    }
+
+    .column-title div {
+      color:#8EC63E !important;
+      line-height:40px !important;
+      font-weight:bold;
+      font-size:18px !important;
+      text-transform:uppercase;
+    }
+
+    .text-btn-module {
+      padding:10px 10px !important;
+    }
+
+    .text-btn-module div {
+      color:#fff !important;
+      background-color:#3F4F5E;
+      text-align:center !important;
+      font-weight:bold !important;
+      padding:13px 0px;
+      display:block;
+      border-radius:10px !important;
+    }
+
+    @media screen and (max-width:479px) {
+      .column-title div {
+        text-align:center !important;
+      }
+
+      .column-desc {
+        padding: 0 25px !important;
+      }
+
+      .column-desc div {
+        text-align:left !important;
+      }
+
+      .text-btn-module {
+        padding-left:15px !important;
+        padding-right:15px !important;
+      }
+    }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="rgb(245, 245, 245)" width="600px">
+    <!-- Header Section -->
+    <mj-section full-width="full-width" background-color="#fafafa" padding="50px 0px" border-top="8px solid #0B88A8">
+        <mj-column width="100%">
+        <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS-icon.png" alt="APPOS 2021 Icon" align="center" width="100px" border-radius="50%" border="2px solid rgb(240, 240, 240)" />
+        <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-weight="bold" align="center" text-transform="uppercase" font-size="28px" line-height="40px">
+            Announcing<br />
+            2021 APP ONCOLOGY SUMMITS (APPOS) LOCATIONS!
+        </mj-text>
+        <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS2021_Map_1200x792.png" alt="APPOS 2021 Locations" padding="0px 25px" />
+        <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="16px" font-style="italic" align="center">
+            Be on the lookout in October when we will announce<br />
+                If 2021 APPOS conferences will be LIVE or VIRTUAL.
+        </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <!-- Overview Section -->
+    <mj-wrapper padding="30px 0px">
+      <mj-section>
+        <mj-column width="100%">
+          <mj-text mj-class="section-title">
+            Overview
+          </mj-text>
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/appos_1000x190.png" />
+          <mj-text>
+            APPOS is a two-day conference designed to provide advanced practice providers (APPs) with the latest evidenced-based strategies to optimize care and outcomes for patients with cancer.
+          </mj-text>
+          <mj-text>
+            Attend this conference and learn the latest clinical and practical strategies to improve care for your oncology patients and communication within your healthcare team.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Overview Value -->
+      <mj-section>
+        <mj-column width="25%">
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/light-icn_500x500.png" width="85px" />
+        </mj-column>
+        <mj-column width="75%">
+          <mj-text css-class="column-title">
+            Learn
+          </mj-text>
+          <mj-text padding-top="0" padding-left="0" css-class="column-desc">
+            The latest practice improvements from health care professionals from across the country.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section direction="rtl">
+        <mj-column width="25%">
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/chat-icn_500x500.png" width="85px" />
+        </mj-column>
+        <mj-column width="75%">
+          <mj-text align="right" css-class="column-title">
+            Engage
+          </mj-text>
+          <mj-text align="right" padding-right="0" padding-top="0" css-class="column-desc">
+            In discussions and interactive sessions about current issues facing APPs in oncology practice.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="25%">
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/magnet-icn_500x500.png" width="85px" />
+        </mj-column>
+        <mj-column width="75%">
+          <mj-text css-class="column-title">
+            Network
+          </mj-text>
+          <mj-text padding-left="0" padding-top="0" css-class="column-desc">
+            With like-minded clinicians from your region and gain valuable professional connections.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section direction="rtl">
+        <mj-column width="25%">
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/Icons/handshake-icn_500x500.png" width="85px" />
+        </mj-column>
+        <mj-column width="75%">
+          <mj-text align="right" css-class="column-title">
+            Collaborate
+          </mj-text>
+          <mj-text align="right" padding-right="0" padding-top="0" css-class="column-desc">
+            In a peer-to-peer setting with other APPs and share your own experience.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- END: Overview Value -->
+    </mj-wrapper>
+    <!-- END: Overview Section -->
+
+    <!-- Who Should Attend APPOS Section -->
+    <mj-wrapper full-width="full-width" background-color="#2F3D4A" padding="30px 25px">
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="column-title-light">Who Should Attend APPOS?</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text css-class="text-btn-module">Pharmacists</mj-text>
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-text css-class="text-btn-module">Nurse Practitioners</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text css-class="text-btn-module">Physician Assistants</mj-text>
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-text css-class="text-btn-module">Nurses</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column padding="0px">
+          <mj-text css-class="text-btn-module">Others involved in the care of oncology patients</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="30px 0 0 0">
+        <mj-column>
+          <mj-text align="center" padding="0" text-transform="uppercase" font-weight="600" color="#fff">Offering up to 12 hours of ANCC, ACPE, & CME credit, <br />including pharmacology credit and BCOP credit</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- END: Who Should Attend APPOS Section -->
+
+    <!-- Locations Section -->
+    <mj-section padding="50px 0px 0px 0px" background-color="#fff">
+        <mj-column width="100%">
+            <mj-text mj-class="section-title" padding-bottom="0px" >
+                Complete 2021 APPOS <br />List of Locations
+            </mj-text>
+            <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="16px" font-weight="100" font-style="italic" align="center" padding-bottom="30px">
+                Be on the lookout in October when we will announce<br />
+                If 2021 APPOS conferences will be LIVE or VIRTUAL.
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <!-- END: Locations Section -->
+
+    <!-- Locations Column -->
+    <mj-section background-color="#fff" padding="0 30px">
+      <mj-group>
+        <mj-column>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Atlanta</strong></a><br />
+              January 29-30
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Pasadena</strong></a><br />
+              February 5-6
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Tampa</strong></a><br />
+              February 19-20
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Boston</strong></a><br />
+              March 5-6
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Austin</strong></a><br />
+              April 2-3
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Nashville</strong></a><br />
+              April 30-May 1
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Cleveland</strong></a><br />
+              April 30 – May 1
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Philadelphia</strong></a><br />
+              May 14-15
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Miami</strong></a><br />
+              May 21-22
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Baltimore</strong></a><br />
+              June 11-12
+          </mj-text>
+        </mj-column>
+      </mj-group>
+      <mj-group>
+        <mj-column>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Scottsdale</strong></a><br />
+              July 16-17
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>New York City</strong></a><br />
+              August 13-14
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Norfolk</strong></a><br />
+              September 10-11
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Portland</strong></a><br />
+              October 8-9
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Detroit</strong></a><br />
+              November 5-6
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Chicago</strong></a><br />
+              TBD
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Cincinnati</strong></a><br />
+              TBD
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Denver</strong></a><br />
+              TBD
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Honolulu</strong></a><br />
+              TBD
+          </mj-text>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/"><strong>Minneapolis</strong></a><br />
+              TBD
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- Button -->
+    <mj-section padding="0px 0px 50px 0px" background-color="#fff">
+      <mj-column padding="0">
+          <mj-button mj-class="primary-btn" font-weight="bold" href="https://apponcologysummit.mededmanager.com/#all_locations">View All</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- END: Locations Column -->
+
+    <!-- Student Registration Section -->
+    <mj-wrapper padding="0 0 0 0">
+      <mj-section background-color="#8EC63E" padding="25px 0px">
+        <mj-column>
+          <mj-text align="center" font-weight="500" color="#FFF">
+            Student registration fee is $35 All students, please contact <a href="mailto:info@horizoncme.com">info@horizoncme.com</a> for further information.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- END: Student Registration -->
+
+    <!-- In Partnership with Section -->
+    <mj-wrapper background-color="#FFF" padding="50px 0px 0px 0px">
+      <mj-section padding="0px 0px 15px 0px">
+        <mj-column>
+          <mj-text mj-class="section-title" font-size="22px" padding="0px">
+            In Partnership with:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px 25px 15px 25px" background-color="#FFF">
+        <mj-column width="30%" vertical-align="middle">
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/Emails/Logos/coa_logo.png" width="100px" padding="0"></mj-image>
+        </mj-column>
+        <mj-column width="70%" vertical-align="middle">
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/Emails/Logos/APAO--logo.png" width="350px" padding="0"></mj-image>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- In Partnership with Section -->
+    <mj-wrapper background-color="#FFF" padding="30px 0px">
+      <mj-section padding="0px 0px 15px 0px">
+        <mj-column>
+          <mj-text mj-class="section-title" font-size="22px" padding="0px">
+            In Collaboration with:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px 25px 30px 25px" background-color="#FFF">
+        <mj-column>
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/HOPA.png" width="300px"></mj-image>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Footer -->
+    <mj-include path="../APPOS-Modules/footer.mjml"></mj-include>
+  </mj-body>
+</mjml>
