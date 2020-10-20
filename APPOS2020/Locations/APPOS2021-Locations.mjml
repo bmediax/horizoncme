@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
     <mj-title>APPOS 2020 Remaining Locations</mj-title>
-    <mj-preview>Locations</mj-preview>
+    <mj-preview>APPOS 2020 Locations</mj-preview>
     <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&display=swap" />
     <mj-attributes>
       <mj-all font-family="Montserrat, Helvetica, Arial, sans-serif"></mj-all>
@@ -87,16 +87,47 @@
     <!-- Header Section -->
     <mj-section full-width="full-width" background-color="#fafafa" padding="50px 0px" border-top="8px solid #0B88A8">
         <mj-column width="100%">
-        <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS-icon.png" alt="APPOS 2021 Icon" align="center" width="100px" border-radius="50%" border="2px solid rgb(240, 240, 240)" />
-        <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-weight="bold" align="center" text-transform="uppercase" font-size="28px" line-height="40px">
-            Announcing<br />
-            2021 APP ONCOLOGY SUMMITS (APPOS) LOCATIONS!
-        </mj-text>
-        <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS2021_Map_1200x792.png" alt="APPOS 2021 Locations" padding="0px 25px" />
-        <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="16px" font-style="italic" align="center">
-            Be on the lookout in October when we will announce<br />
-                If 2021 APPOS conferences will be LIVE or VIRTUAL.
-        </mj-text>
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/APPOS%20National%202021/Assets/gfx/APPOS-icon.png" alt="APPOS 2021 Icon" align="center" width="100px" border-radius="50%" border="2px solid rgb(240, 240, 240)" />
+          <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-weight="bold" align="center" text-transform="uppercase" font-size="28px" line-height="40px">
+              Remaining APPOncology Summit 2020 LOCATIONS!
+          </mj-text>
+          <mj-text align="center">Check out our remaining APPOncology 2020 Summits!</mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#fafafa">
+        <mj-column>
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/arizona.png" width="200px"></mj-image>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/store/2020-app-oncology-summit-scottsdale"><strong>Scottsdale Virtual</strong></a><br />
+              Oct 23-24, 2020
+          </mj-text>
+          <mj-button href="https://apponcologysummit.mededmanager.com/store/2020-app-oncology-summit-scottsdale">Register Now</mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/photodune-9445301-downtown-cleveland-xl.jpg" width="200px"></mj-image>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/store/2020-app-oncology-summit-virtual-cleveland"><strong>Cleveland Virtual</strong></a><br />
+              Oct 30-31, 2020
+          </mj-text>
+          <mj-button href="https://apponcologysummit.mededmanager.com/store/2020-app-oncology-summit-virtual-cleveland">Register Now</mj-button>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#fafafa">
+      <mj-column>
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/Cincinnati_sm-1.jpg" width="200px"></mj-image>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/store/2020-app-oncology-summit-cincinnati"><strong>Cincinnati Virtual</strong></a><br />
+              Nov 13-14, 2020
+          </mj-text>
+          <mj-button href="https://apponcologysummit.mededmanager.com/store/2020-app-oncology-summit-cincinnati">Register Now</mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-image src="https://f.hubspotusercontent20.net/hubfs/4636824/Emails/cities/honolulu-2.jpg" width="200px"></mj-image>
+          <mj-text css-class="location-item">
+              <a href="https://apponcologysummit.mededmanager.com/store/2020-app-oncology-summit-honolulu"><strong>Honolulu Virtual</strong></a><br />
+              Nov 20-21, 2020
+          </mj-text>
+          <mj-button href="https://apponcologysummit.mededmanager.com/store/2020-app-oncology-summit-honolulu">Register Now</mj-button>
         </mj-column>
     </mj-section>
 
@@ -176,124 +207,6 @@
       <!-- END: Overview Value -->
     </mj-wrapper>
     <!-- END: Overview Section -->
-    
-    <!-- Locations Section -->
-    <mj-section padding="50px 0px 0px 0px" background-color="#fff">
-        <mj-column width="100%">
-            <mj-text mj-class="section-title" padding-bottom="0px" >
-                Complete 2021 APPOS <br />List of Locations
-            </mj-text>
-            <mj-text color="#3F4F5E" font-family="Montserrat, Helvetica, Arial, sans-serif" font-size="16px" font-weight="100" font-style="italic" align="center" padding-bottom="30px">
-                Be on the lookout in October when we will announce<br />
-                If 2021 APPOS conferences will be LIVE or VIRTUAL.
-            </mj-text>
-        </mj-column>
-    </mj-section>
-    <!-- END: Locations Section -->
-
-    <!-- Locations Column -->
-    <mj-section background-color="#fff" padding="0 30px">
-      <mj-group>
-        <mj-column>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Atlanta</strong></a><br />
-              January 29-30
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Pasadena</strong></a><br />
-              February 5-6
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Tampa</strong></a><br />
-              February 19-20
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Boston</strong></a><br />
-              March 5-6
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Austin</strong></a><br />
-              April 2-3
-          </mj-text>
-        </mj-column>
-        <mj-column>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Nashville</strong></a><br />
-              April 30-May 1
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Cleveland</strong></a><br />
-              April 30 – May 1
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Philadelphia</strong></a><br />
-              May 14-15
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Miami</strong></a><br />
-              May 21-22
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Baltimore</strong></a><br />
-              June 11-12
-          </mj-text>
-        </mj-column>
-      </mj-group>
-      <mj-group>
-        <mj-column>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Scottsdale</strong></a><br />
-              July 16-17
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>New York City</strong></a><br />
-              August 13-14
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Norfolk</strong></a><br />
-              September 10-11
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Portland</strong></a><br />
-              October 8-9
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Detroit</strong></a><br />
-              November 5-6
-          </mj-text>
-        </mj-column>
-        <mj-column>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Chicago</strong></a><br />
-              TBD
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Cincinnati</strong></a><br />
-              TBD
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Denver</strong></a><br />
-              TBD
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Honolulu</strong></a><br />
-              TBD
-          </mj-text>
-          <mj-text css-class="location-item">
-              <a href="https://apponcologysummit.mededmanager.com/"><strong>Minneapolis</strong></a><br />
-              TBD
-          </mj-text>
-        </mj-column>
-      </mj-group>
-    </mj-section>
-
-    <!-- Button -->
-    <mj-section padding="0px 0px 50px 0px" background-color="#fff">
-      <mj-column padding="0">
-          <mj-button mj-class="primary-btn" font-weight="bold" href="https://apponcologysummit.mededmanager.com/#all_locations">View All</mj-button>
-      </mj-column>
-    </mj-section>
-    <!-- END: Locations Column -->
 
     <!-- Student Registration Section -->
     <mj-wrapper padding="0 0 0 0">
@@ -343,6 +256,6 @@
     </mj-wrapper>
 
     <!-- Footer -->
-    <mj-include path="../APPOS-Modules/footer.mjml"></mj-include>
+    <mj-include path="../../../APPOS-Modules/footer.mjml"></mj-include>
   </mj-body>
-</mjml>
+</mjml> 
